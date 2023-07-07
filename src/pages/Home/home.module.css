@@ -1,0 +1,72 @@
+.tododiv_maindiv{
+    width: 50%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 1rem 0.2rem;
+    border-radius: 12px;
+    margin-top: 50vh;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(180deg,blue,violet,pink,red);
+}
+
+.head{
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.todo_input{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+.tododiv_search{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.todo_add_button{
+    background-color: white;
+    padding: 0.3rem 0.6rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+.Tododiv_all_todos_main_div{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem 0.6rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+.tododiv_todo_task{
+    border: 1px solid rgb(153, 149, 149);
+    display: flex;
+    justify-content: space-between;
+}
+
+.tododiv_input_checkbox{
+    margin-right: 10px;
+    margin-left: 6px;
+}
+
+.tododiv_pagination_buttons{
+    margin-top: 12px;
+}
+
+.tododiv_pagination_buttons>button{
+    margin: 0px 0.3rem;
+}
